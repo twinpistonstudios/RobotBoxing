@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: core_quantum
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: core_quantum
+  displayName: Quantum Wings
+  description: Winged apex reactor maximizing Overdrive and speed.
+  slot: 5
+  rarity: 3
+  brand: 5
+  mesh: {fileID: -2432090755550338912, guid: 3c8ea479f71e8a749b7c22f2bf9d9b46, type: 3}
+  baseStats:
+    maxHp: 55
+    attack: 12
+    speed: 12
+    defense: 10
+    stamina: 38
+    critChance: 0.08
+    overdriveGain: 20
+  buyCostScrap: 720
+  upgradeBaseScrap: 195
+  upgradeBaseShards: 14
+  meshScale: {x: 1, y: 1, z: 1}

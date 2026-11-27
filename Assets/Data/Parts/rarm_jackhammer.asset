@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: rarm_jackhammer
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: rarm_jackhammer
+  displayName: Jackhammer Right
+  description: Pneumatic piston fist delivering rapid recoil strikes.
+  slot: 3
+  rarity: 1
+  brand: 4
+  mesh: {fileID: -2432090755550338912, guid: cca08360cd6ac6e40a50cfd9701527de, type: 3}
+  baseStats:
+    maxHp: 28
+    attack: 22
+    speed: 5
+    defense: 5
+    stamina: 7
+    critChance: 0.060000002
+    overdriveGain: 4
+  buyCostScrap: 285
+  upgradeBaseScrap: 120
+  upgradeBaseShards: 8
+  meshScale: {x: 1, y: 1, z: 1}

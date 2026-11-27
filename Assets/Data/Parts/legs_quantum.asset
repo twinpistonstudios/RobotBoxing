@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: legs_quantum
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: legs_quantum
+  displayName: Quantum Struts
+  description: Energy-stabilized combat legs with high Overdrive flow.
+  slot: 4
+  rarity: 3
+  brand: 5
+  mesh: {fileID: -2432090755550338912, guid: 40eb018e1afcb8342a8b85ce86e0699c, type: 3}
+  baseStats:
+    maxHp: 68
+    attack: 9
+    speed: 17
+    defense: 12
+    stamina: 28
+    critChance: 0.06
+    overdriveGain: 8
+  buyCostScrap: 650
+  upgradeBaseScrap: 185
+  upgradeBaseShards: 13
+  meshScale: {x: 1, y: 1, z: 1}

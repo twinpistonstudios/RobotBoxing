@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: legs_hakama
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: legs_hakama
+  displayName: Shogun Hakama
+  description: Armored cyber-skirts concealing reinforced knee servos.
+  slot: 4
+  rarity: 2
+  brand: 1
+  mesh: {fileID: -2432090755550338912, guid: 5417894898beb524eb62c3eb1554113a, type: 3}
+  baseStats:
+    maxHp: 56
+    attack: 7
+    speed: 11
+    defense: 11
+    stamina: 20
+    critChance: 0.04
+    overdriveGain: 6
+  buyCostScrap: 410
+  upgradeBaseScrap: 145
+  upgradeBaseShards: 9
+  meshScale: {x: 1, y: 1, z: 1}

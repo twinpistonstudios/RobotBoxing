@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b83d359fb8bee64b89874bafff7031a, type: 3}
+  m_Name: ability_quantum_overdrive
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.CombatAbilityData
+  id: ability_quantum_overdrive
+  displayName: Quantum Nova
+  description: Apex finisher unleashing 3.2x devastating championship force.
+  isPassive: 0
+  unlockCostScrap: 650
+  unlockCostShards: 35
+  overdriveCost: 90
+  damageMultiplier: 3.2
+  guardBreakBonus: 1.4
+  stunDuration: 1.25
+  hitCount: 1
+  accentColor: {r: 1, g: 0.82, b: 0.2, a: 1}
+  passiveHpBonus: 0
+  passiveStaminaRegenBonus: 0
+  passiveCounterDamageBonus: 0
+  passiveOverdriveBonus: 0

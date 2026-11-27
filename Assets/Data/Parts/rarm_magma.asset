@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: rarm_magma
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: rarm_magma
+  displayName: Magma Piston Right
+  description: Superheated exhaust fist with explosive impact.
+  slot: 3
+  rarity: 2
+  brand: 4
+  mesh: {fileID: -2432090755550338912, guid: eff032d50fb0bfd4087024f70f246046, type: 3}
+  baseStats:
+    maxHp: 32
+    attack: 27
+    speed: 5
+    defense: 5
+    stamina: 8
+    critChance: 0.08
+    overdriveGain: 6
+  buyCostScrap: 470
+  upgradeBaseScrap: 155
+  upgradeBaseShards: 11
+  meshScale: {x: 1, y: 1, z: 1}

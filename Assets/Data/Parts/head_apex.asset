@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: head_apex
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: head_apex
+  displayName: Apex Crown
+  description: Championship-grade command head with top sensors.
+  slot: 0
+  rarity: 3
+  brand: 5
+  mesh: {fileID: -2432090755550338912, guid: f585d9b216a11654bb311e3e9f3066e4, type: 3}
+  baseStats:
+    maxHp: 78
+    attack: 13
+    speed: 10
+    defense: 10
+    stamina: 12
+    critChance: 0.12
+    overdriveGain: 9
+  buyCostScrap: 720
+  upgradeBaseScrap: 195
+  upgradeBaseShards: 14
+  meshScale: {x: 1, y: 1, z: 1}

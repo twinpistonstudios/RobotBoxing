@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: head_cyclops
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: head_cyclops
+  displayName: Cyclops Optic
+  description: Heavy targeting dome boosting critical precision.
+  slot: 0
+  rarity: 1
+  brand: 1
+  mesh: {fileID: -2432090755550338912, guid: fe62db31a30705644a37cadb83c1db30, type: 3}
+  baseStats:
+    maxHp: 42
+    attack: 6
+    speed: 4
+    defense: 6
+    stamina: 6
+    critChance: 0.08
+    overdriveGain: 4
+  buyCostScrap: 160
+  upgradeBaseScrap: 95
+  upgradeBaseShards: 6
+  meshScale: {x: 1, y: 1, z: 1}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: core_volt
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: core_volt
+  displayName: Twin Volt Coils
+  description: Dual capacitor cylinders that rapidly charge specials.
+  slot: 5
+  rarity: 1
+  brand: 1
+  mesh: {fileID: -2432090755550338912, guid: a0d8578b87b2af44abf6f8212d8a753e, type: 3}
+  baseStats:
+    maxHp: 22
+    attack: 4
+    speed: 5
+    defense: 3
+    stamina: 20
+    critChance: 0.03
+    overdriveGain: 12
+  buyCostScrap: 170
+  upgradeBaseScrap: 95
+  upgradeBaseShards: 6
+  meshScale: {x: 1, y: 1, z: 1}

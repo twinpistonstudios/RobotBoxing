@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: larm_gravity
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: larm_gravity
+  displayName: Gravity Orb Left
+  description: Magnetic singularity fist pulling targets off-balance.
+  slot: 2
+  rarity: 3
+  brand: 5
+  mesh: {fileID: -2432090755550338912, guid: b27a4cc2e112c9b43bad8e54d7110032, type: 3}
+  baseStats:
+    maxHp: 38
+    attack: 28
+    speed: 10
+    defense: 7
+    stamina: 10
+    critChance: 0.1
+    overdriveGain: 10
+  buyCostScrap: 690
+  upgradeBaseScrap: 190
+  upgradeBaseShards: 13
+  meshScale: {x: 1, y: 1, z: 1}

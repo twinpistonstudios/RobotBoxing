@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495cbf42b9082bd4981a3dc99249760b, type: 3}
+  m_Name: opp_02_sparky
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.OpponentData
+  id: opp_02_sparky
+  fighterName: Sparky
+  title: Garage Welder
+  leagueIndex: 0
+  matchIndex: 1
+  isBoss: 0
+  aiStyle: 1
+  aiDifficulty: 0.28
+  headPartId: head_cyclops
+  torsoPartId: torso_ribcage
+  leftArmPartId: larm_shock
+  rightArmPartId: rarm_riveted
+  legsPartId: legs_wheels
+  corePartId: core_v8pipes
+  partLevel: 1
+  colorSchemeId: color_emerald
+  specialAbilityId: ability_emp_hook
+  rewardScrap: 160
+  rewardShards: 9
+  quote: Catch a face full of static!

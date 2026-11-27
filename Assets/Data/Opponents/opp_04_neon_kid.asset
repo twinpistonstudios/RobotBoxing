@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495cbf42b9082bd4981a3dc99249760b, type: 3}
+  m_Name: opp_04_neon_kid
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.OpponentData
+  id: opp_04_neon_kid
+  fighterName: Neon Kid
+  title: Alley Dash
+  leagueIndex: 1
+  matchIndex: 0
+  isBoss: 0
+  aiStyle: 0
+  aiDifficulty: 0.45
+  headPartId: head_mohawk
+  torsoPartId: torso_aero
+  leftArmPartId: larm_shock
+  rightArmPartId: rarm_shock
+  legsPartId: legs_hover
+  corePartId: core_volt
+  partLevel: 2
+  colorSchemeId: color_neon_cyan
+  specialAbilityId: ability_emp_hook
+  rewardScrap: 270
+  rewardShards: 14
+  quote: Too fast for your optics!

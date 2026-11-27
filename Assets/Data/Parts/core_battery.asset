@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: core_battery
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: core_battery
+  displayName: Lead Cell
+  description: Basic backup battery pack.
+  slot: 5
+  rarity: 0
+  brand: 0
+  mesh: {fileID: -2432090755550338912, guid: 4d58bacf6a9708a4d818a59bf5ce7d9e, type: 3}
+  baseStats:
+    maxHp: 16
+    attack: 2
+    speed: 2
+    defense: 2
+    stamina: 16
+    critChance: 0.01
+    overdriveGain: 5
+  buyCostScrap: 0
+  upgradeBaseScrap: 65
+  upgradeBaseShards: 4
+  meshScale: {x: 1, y: 1, z: 1}

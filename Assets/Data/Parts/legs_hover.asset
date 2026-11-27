@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: legs_hover
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: legs_hover
+  displayName: Hover Thrusters
+  description: Micro-thruster calves enabling rapid slips.
+  slot: 4
+  rarity: 1
+  brand: 1
+  mesh: {fileID: -2432090755550338912, guid: 98331bd46cc6f3644976db0958a559cc, type: 3}
+  baseStats:
+    maxHp: 34
+    attack: 3
+    speed: 14
+    defense: 4
+    stamina: 18
+    critChance: 0.02
+    overdriveGain: 5
+  buyCostScrap: 190
+  upgradeBaseScrap: 95
+  upgradeBaseShards: 6
+  meshScale: {x: 1, y: 1, z: 1}

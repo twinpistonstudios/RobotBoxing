@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f952a64bf6e8b4891269eecad1567f, type: 3}
+  m_Name: preset_iron_anvil
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPresetData
+  id: preset_iron_anvil
+  displayName: Iron Anvil
+  tagline: TitanForge siege fortress built to shatter guards.
+  archetype: Heavy Tank
+  buyCostScrap: 850
+  isStarter: 0
+  headPartId: head_horned
+  torsoPartId: torso_anvil
+  leftArmPartId: larm_piledriver
+  rightArmPartId: rarm_piledriver
+  legsPartId: legs_tread
+  corePartId: core_flywheel
+  defaultColorSchemeId: color_hazard

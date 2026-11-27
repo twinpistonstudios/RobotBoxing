@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e875e127b9d7b4cad6815e43cc0eed, type: 3}
+  m_Name: legs_apex
+  m_EditorClassIdentifier: IronKnuckle.Runtime::IronKnuckle.Data.RobotPartData
+  id: legs_apex
+  displayName: Apex Greaves
+  description: Pro-circuit carbon-titanium combat legs.
+  slot: 4
+  rarity: 3
+  brand: 5
+  mesh: {fileID: -2432090755550338912, guid: a9f13b608f4b78747ba74d57b9ea6eee, type: 3}
+  baseStats:
+    maxHp: 78
+    attack: 11
+    speed: 15
+    defense: 15
+    stamina: 26
+    critChance: 0.05
+    overdriveGain: 7
+  buyCostScrap: 720
+  upgradeBaseScrap: 195
+  upgradeBaseShards: 14
+  meshScale: {x: 1, y: 1, z: 1}
